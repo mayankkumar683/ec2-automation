@@ -1,3 +1,17 @@
+# 🚀 EC2 Automation using Boto3
+
+This project automates the process of launching an EC2 instance on AWS using Python and Boto3.
+
+## 📦 Requirements
+
+- Python 3.x
+- Boto3
+- AWS credentials (Access Key & Secret Key)
+
+## ⚙️ Setup
+
+```bash
+pip install -r requirements.txt
 # 🚀 AWS EC2 Automation using Python & Boto3
 
 This project demonstrates how to launch and manage EC2 instances on AWS using Python and Boto3.
@@ -25,5 +39,18 @@ This project demonstrates how to launch and manage EC2 instances on AWS using Py
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/ec2-automation.git
-cd ec2-automation
+git clone https://github.com/mayankkumar683/ec2-automation.git
+
+## ▶️ Usage
+
+```bash
+python launch_ec2.py
+## ✅ Output
+
+- Prints the instance ID of the newly launched EC2 instance.
+
+## 📁 Files
+
+- `launch_ec2.py` - Main automation script
+- `requirements.txt` -  Python dependencies
+- `README.md` - Project documentation
