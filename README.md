@@ -29,3 +29,6 @@ Make sure you have the following installed:
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+git clone https://github.com/mayankkumar683/ec2-automation.git
+cd ec2-automation
