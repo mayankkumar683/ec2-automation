@@ -3,11 +3,11 @@ import boto3
 ec2 = boto3.resource('ec2', region_name='ap-south-1')  # Mumbai
 
 instance = ec2.create_instances(
-    ImageId='ami-0f58b397bc5c1f2e8',  # Ubuntu 22.04 LTS AMI (latest)
+    ImageId='ami-053b0d53g279acc90',  # Ubuntu 22.04 LTS AMI (latest)
     MinCount=1,
     MaxCount=1,
     InstanceType='t2.micro',
-    KeyName='swapkey',   # <-- Replace this!
+    KeyName='webkey',   # <-- Replace this!
     TagSpecifications=[
         {
             'ResourceType': 'instance',
